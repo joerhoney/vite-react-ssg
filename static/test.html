@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Test Page</title>
+    <style>
+      body {
+        margin: 0 auto;
+        padding: 2rem;
+        max-width: 800px;
+        line-height: 1.6;
+        font-family: Arial, sans-serif;
+      }
+      .highlight {
+        border: 1px solid #e6e600;
+        border-radius: 4px;
+        background: #ffffcc;
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Static Test Page</h1>
+    <p>
+      This is a static HTML file served directly from the
+      <code>static/</code> directory.
+    </p>
+
+    <div class="highlight">
+      <p>
+        <strong>Note:</strong> This page is served as-is, without any processing
+        by Vite or React.
+      </p>
+      <p>You can access this page at <code>/test.html</code></p>
+    </div>
+
+    <h2>Static Asset Examples</h2>
+    <p>Other files in the static directory would be available at:</p>
+    <ul>
+      <li><code>static/logo.jpg</code> → <code>/logo.jpg</code></li>
+      <li><code>static/robots.txt</code> → <code>/robots.txt</code></li>
+      <li><code>static/sitemap.xml</code> → <code>/sitemap.xml</code></li>
+    </ul>
+
+    <p><a href="/">← Back to Home</a></p>
+  </body>
+</html>
